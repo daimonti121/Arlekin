@@ -867,3 +867,43 @@
   .no-click{
     pointer-events: none;
   }
+
+  @media (max-height: 425px) {
+
+      .center {
+          margin-top: 0;
+      } 
+
+      .logo {
+        position: absolute;
+        width: 200px;
+        top: 20px;
+        left: 20px;
+      }
+
+      .circle {
+          top: -54px;
+          transform: scale(0.7);
+          z-index: 2;
+      }
+
+      .popupImg {
+          display: none;
+      }
+  }
+
+  @media (max-height: 375px) {
+
+    .circle {
+        top: -80px;
+        transform: scale(0.6);
+    }
+  }
+
+  @media (max-height: 320px) {
+
+    .circle {
+        top: -108px;
+        transform: scale(0.5);
+    }
+  }
