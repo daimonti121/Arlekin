@@ -370,10 +370,20 @@
       max-width: 100%;
       margin-right: auto;
       margin-left: auto;
+      pointer-events: auto;
   }
   #animatedModal *, #animatedModal2 *{
       font-family: 'RocknRoll One', sans-serif;
   }
+
+  .fancybox__container {
+    pointer-events: none;
+    --carousel-button-width: 48px;
+    --carousel-button-height: 48px;
+    --carousel-button-svg-width: 27px;
+    --carousel-button-svg-height: 27px;
+}
+
   
   .text1 {
       font-size: 20px;
@@ -488,6 +498,7 @@
       left: calc(50% - 190px);
       max-width: 400px;
       z-index: 10;
+      pointer-events: none;
   }
   
   @media (max-width: 1650px) {

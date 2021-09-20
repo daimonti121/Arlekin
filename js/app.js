@@ -27,7 +27,7 @@ function drawRouletteWheel() {
    
     ctx = canvas.getContext("2d");
     ctx.clearRect(0,0,500,500);
-    ctx.font = 'bold 14px RocknRoll One, Arial';
+    ctx.font = 'bold 13px RocknRoll One, Arial';
     ctx.textAlign = "center";
    
     for(var i = 0; i < colors.length; i++) {
